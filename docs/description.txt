@@ -1,0 +1,59 @@
+Time spent: 18 hours at least (global)
+
+Description:
+  Program functions:
+    main.py
+      - main
+
+    gui.py
+      - populate_main_window
+        - toggle_language
+        - toggle_listener
+        - get_translation
+        - open_file
+        - exit_app
+        - set_path
+
+    utils.py
+      - translate
+      - get_paragraphs
+        - isolate_paragraphs
+      - build_document
+        - add_paragraphs
+
+  Test functions:
+    test_utils.py
+      - test_get_paragraphs
+        -(lambda)
+      - test_build_document
+      - test_translate
+  
+  Documentation read:
+    - Rapid Translate Multi Traduction (API in RapidAPI)
+    - Lecto Translation (API in RapidAPI)
+    - os — Miscellaneous operating system interfaces
+    - python-docx
+
+  Videos watched:
+    - CREATE Your First MODERN App In Python Tutorial 2023 (Increment Counter)
+    - Open Files Dialog Box - Python Tkinter GUI Tutorial #15
+    - (SPANISH) Course PYTHON: GRAPHICAL INTERFACES [ with TKINTER ] 
+    - Advanced Python Programming: Reading and Writing to Documents with docx
+    - python | subprocess module| subprocess.Popen| run OS command using subprocess
+    - Advanced Python Programming: Reading and Writing to Documents with docx
+    - How to Get the Current Username in Python
+    - How to Make a Custom Toggle Button in Tkinter Python
+    - A simple example of opening and displaying an image file using the Python Image Library (PIL)
+
+  Work done:
+    - Succesful Translation API connection
+    - Word text extraction
+    - Starting to design beta GUI with customtkinter
+    - Filedialog implementation and succesful capture of file path to access
+    - Program refactorized from OOP to Functions
+    - Successful integration of each piece of the program
+    - GUI defined
+    - Successful interaction with operating system to get file path and use it to open Word files
+    - Testing functions succesfully implemented
+    - Hooks done to modify app state
+    - Toggle buttons to handle the functions
